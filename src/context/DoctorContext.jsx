@@ -12,7 +12,7 @@ export const DoctorContext = createContext();
 
 const DoctorContextProvider = (props) => {
     // const backendUrl = import.meta.env?.BACKEND_URL || 'http://localhost:4000';
-    const backendUrl = import.meta.env?.BACKEND_URL || 'https://medibackend.azurewebsites.net';
+    const backendUrl = import.meta.env?.BACKEND_URL || 'https://medi-backend-blbb.onrender.com';
 
     const [dToken, setDToken] = useState(localStorage.getItem('dToken') ? localStorage.getItem('dToken') : '')
 

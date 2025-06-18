@@ -23,7 +23,8 @@ const AdminContextProvider = (props) => {
     const [fullAccess, setFullAccess] = useState(false);
 
     // const backendUrl = import.meta.env?.BACKEND_URL || 'http://localhost:4000';
-    const backendUrl = import.meta.env?.BACKEND_URL || 'https://medibackend.azurewebsites.net';
+    const backendUrl = import.meta.env?.BACKEND_URL || 'https://medi-backend-blbb.onrender.com';
+   
 
     const {data: verifiedDoctor = [], isLoading: isVerifyDoctorLoading, refetch: rVerifyDoctorData} = useQuery({
         queryKey: ["verify"],
