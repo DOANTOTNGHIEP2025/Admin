@@ -287,13 +287,13 @@ const Login = () => {
                             >
                                 {state === "Admin" ? (
                                     <p>
-                                        Doctor Login?{" "}
+                                        {/* Doctor Login?{" "}
                                         <span
                                             className="text-primary underline cursor-pointer"
                                             onClick={() => setState("Doctor")}
                                         >
                             Click here
-                        </span>
+                        </span> */}
                                     </p>
                                 ) : (
                                     <p>
