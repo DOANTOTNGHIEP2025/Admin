@@ -18,26 +18,6 @@ const AccountDashboard = () => {
 
     const {t} = useTranslation();
 
-    // const getAccounts = async () => {
-    //     try {
-    //         const [userResult, adminResult] = await Promise.all([
-    //             accountService.findAll(true, false, false, aToken),
-    //             getAdminAccountList()
-    //         ]);
-    //         const filteredUsers = userResult.filter(acc => !adminList.some(admin => admin.user_id?._id === acc._id));
-    //         setTotalUser(filteredUsers.length);
-    //         setTotalAdmin(adminResult.length);
-    //     } catch (error) {
-    //         console.error(error);
-    //     }
-    // };
-    //
-    // useEffect(() => {
-    //     if (aToken) {
-    //         getAccounts();
-    //     }
-    // }, [aToken]);
-
     const {data: user = [], isLoading: isCustomerLoading, refetch: refetchCustomerList} = useQuery({
         queryKey: ['cList'],
         queryFn: async () => {

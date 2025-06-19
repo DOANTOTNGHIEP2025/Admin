@@ -25,22 +25,7 @@ const AdminLatestBooking = () => {
         }
     }, [aToken])
 
-    // if (aListLoading) {
-    //     return (
-    //         <div className="flex justify-center items-center w-full h-screen bg-opacity-75 fixed top-0 left-0 z-50">
-    //             <Loader/>
-    //         </div>
-    //     );
-    // }
-    //
-    // if (aListError) {
-    //     return (
-    //         <div>
-    //             <Error/>
-    //         </div>
-    //     )
-    // }
-
+  
     return data && (
         <motion.div
             initial={{ opacity: 0, y: -20 }}
