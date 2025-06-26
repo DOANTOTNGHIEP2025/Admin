@@ -285,18 +285,18 @@ const Login = () => {
                                 exit={{opacity: 0, y: -10}}
                                 transition={{duration: 0.3}}
                             >
-                                {state === "Admin" ? (
+                                {/* {state === "Admin" ? (
                                     <p>
-                                        {/* Doctor Login?{" "}
+                                        Doctor Login?{" "}
                                         <span
                                             className="text-primary underline cursor-pointer"
                                             onClick={() => setState("Doctor")}
                                         >
                             Click here
-                        </span> */}
+                        </span>
                                     </p>
-                                ) : (
-                                    <p>
+                                ) : ( */}
+                                    {/* <p>
                                         Admin Login?{" "}
                                         <span
                                             className="text-primary underline cursor-pointer"
@@ -304,8 +304,8 @@ const Login = () => {
                                         >
                             Click here
                         </span>
-                                    </p>
-                                )}
+                                    </p> */}
+                                
                             </motion.span>
                         )}
                         <motion.span

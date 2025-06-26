@@ -1,8 +1,9 @@
 import axios from "axios";
 
 
-// const REST_API_BASE_URL = "http://localhost:4000/acc";
-const REST_API_BASE_URL = "https://medi-backend-blbb.onrender.com/acc";
+// const REST_API_BASE_URL = "http://localhost:4001/acc";
+const REST_API_BASE_URL = "https://medibooker-backend.onrender.com/acc";
+// const REST_API_BASE_URL = "https://medi-backend-blbb.onrender.com/acc";
 // const REST_API_BASE_URL = "https://medibackend.azurewebsites.net/acc";
 
 export const login = async (email, password) => {

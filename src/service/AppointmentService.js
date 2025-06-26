@@ -1,9 +1,10 @@
 import axios from "axios";
 
 
-// const REST_API_BASE_URL = "http://localhost:4000/appointment";
+// const REST_API_BASE_URL = "http://localhost:4001/appointment";
+const REST_API_BASE_URL = "https://medibooker-backend.onrender.com/appointment";
 // const REST_API_BASE_URL = "https://medibackend.azurewebsites.net/appointment";
-const REST_API_BASE_URL = "https://medi-backend-blbb.onrender.com/appointment";
+// const REST_API_BASE_URL = "https://medi-backend-blbb.onrender.com/appointment";
 
 export const findAll = async (is_deleted, aToken) => {
     try {

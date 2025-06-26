@@ -1,9 +1,10 @@
 import axios from "axios";
 
 
-// const REST_API_BASE_URL = "http://localhost:4000/region";
+// const REST_API_BASE_URL = "http://localhost:4001/region";
+const REST_API_BASE_URL = "https://medibooker-backend.onrender.com/region";
 // const REST_API_BASE_URL = "https://medibackend.azurewebsites.net/region";
-const REST_API_BASE_URL = "https://medi-backend-blbb.onrender.com/region";
+// const REST_API_BASE_URL = "https://medi-backend-blbb.onrender.com/region";
 
 export const findAll = async (hidden_state, aToken) => {
     try {
